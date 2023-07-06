@@ -93,7 +93,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'About me',
+            title: 'Links',
             items: [
               {
                 label: 'Blog',
