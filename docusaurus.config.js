@@ -120,11 +120,6 @@ const config = {
         minHeadingLevel: 2,
         maxHeadingLevel: 4,
       },
-      algolia: {
-        appId: 'IYGDSILCP9',
-        apiKey: 'afe023cd1b8cddf811b1cb6be3dd1959',
-        indexName: 'www.uuz.io',
-      },
     }),
 };
 
