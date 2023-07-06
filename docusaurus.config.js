@@ -53,7 +53,6 @@ const config = {
       ({
         docs: false,
         blog: {
-          routeBasePath: '/',
           showReadingTime: true,
           editUrl:
             'https://github.com/impasse/uuz.io/tree/main',
@@ -80,7 +79,7 @@ const config = {
           src: 'img/logo.jpg',
         },
         items: [
-          { to: '/', label: 'Blog', position: 'left', activeBaseRegex: '^/$' },
+          { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/links', label: 'Links', position: 'left' },
           { to: '/about', label: 'About', position: 'left' },
           {
