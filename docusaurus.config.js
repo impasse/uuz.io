@@ -67,6 +67,7 @@ const config = {
         ],
       },
     ],
+    ['@docusaurus/theme-live-codeblock', {}],
   ],
 
   presets: [
@@ -139,6 +140,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
       },
     }),
 };

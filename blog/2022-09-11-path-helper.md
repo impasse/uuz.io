@@ -1,7 +1,8 @@
 ---
 title: 挖了个新坑 path_helper
 slug: path_helper
-author: yooyi
+authors: 
+  - yooyi
 tags: 
   - MacOS
 ---
@@ -28,7 +29,7 @@ tags:
 
 **简直不要太烦**。
 
-<!--more-->
+<!--truncate-->
 
 后来研究了一下 MacOS 的环境变量，发现苹果其实是有一个简单的方案解决这个问题。
 
