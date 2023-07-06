@@ -73,16 +73,16 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Yooyi\'s blog',
+        title: 'Yooyi\'s',
         logo: {
           alt: 'Yooyi\'s blog',
           src: 'img/logo.jpg',
         },
         items: [
-          {to: '/links', label: 'Links', position: 'left'},
-          {to: '/about', label: 'About', position: 'left'},
+          { to: '/', label: 'Blog', position: 'left', activeBaseRegex: '^/$' },
+          { to: '/links', label: 'Links', position: 'left' },
+          { to: '/about', label: 'About', position: 'left' },
           {
             href: 'https://github.com/impasse/uuz.io',
             label: 'GitHub',
