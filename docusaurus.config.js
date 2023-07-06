@@ -105,8 +105,8 @@ const config = {
                 href: 'https://github.com/impasse',
               },
               {
-                label: 'V2EX',
-                href: 'https://www.v2ex.com/member/shyling',
+                label: 'Mail',
+                href: 'mailto:i@uuz.io',
               },
             ],
           },
