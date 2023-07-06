@@ -74,7 +74,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Yooyi\'s',
+        title: 'Yooyi\'s Blog',
         logo: {
           alt: 'Yooyi\'s blog',
           src: 'img/logo.jpg',
