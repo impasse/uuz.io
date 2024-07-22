@@ -43,7 +43,7 @@ tags:
 - 不确定存在：环境变量指向的地址可能是个无效路径，还是会被添加在 $PATH 上
 - 不支持变量替换: `~` 不会被替换为 `/Users/username`, 也不支持像 windows 下的 `%JAVA_HOME%` 这样的环境变量替换功能。
 
-所以就写了这个工具: <https://github.com/impasse/path_helper>
+所以就写了这个工具: (https://github.com/impasse/path_helper)[https://github.com/impasse/path_helper]
 
 用 rust 写的，速度应该不会比系统自带的 C 实现慢太多。
 
